@@ -3,6 +3,8 @@ import streamlit as st
 from llm_handlers.basic_llm import llm_response
 
 st.title("💬 Chatbot")
+with st.sidebar:
+    st.write("This is a playground sidebar.")
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = [
