@@ -107,3 +107,6 @@ This directory contains different modules for handling the logic of interacting 
 * **`rag_llm_with_vertex_with_evals.py`**: Extends `rag_llm_with_vertex.py` by integrating Trulens for RAG pipeline evaluation. It sets up feedback functions (Context Relevance, Groundedness, Answer Relevance) using an OpenAI provider and runs sample queries through the RAG chain to record and potentially evaluate the quality of the retrieval and generation steps. [cite: 1]
 
 *(Note: The specific handler used by `app.py` might be commented/uncommented within `app.py` itself to switch between different RAG implementations or the basic LLM.)* [cite: 1]
+
+### Link to Notion
+https://www.notion.so/EGAT-Prompt-Engineering-and-RAG-Workbook-1c169e9e30e58095b676cef13a604033
